@@ -1,0 +1,70 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+  [data-color-scheme="dark"] {
+    color-scheme: dark;
+  }
+  body {
+    background-color: #222323;
+  }
+  .toolbar{ 
+    background-color: #383938 !important;
+    background-image: none;
+  }
+  .toolbar-header {
+      border-bottom: 1px solid #000000;
+      box-shadow: inset 0 1px 0 #6c6d6d;
+  }
+  .title{
+    color: #acadac !important;
+  } 
+  .window {
+    background-color: #222323;
+  }
+  .header {
+    background-color: #383938;
+    color: #6b6c6c
+  }
+  .table-striped tr:nth-child(even), thead {
+      background-color: #252626;
+      color: white;
+  }
+  .table-striped tr:nth-child(odd), thead {
+      background-color: #313232;
+      color: white;
+  }
+  th{
+    border-color: #494a4a;
+  }
+  tr.active {
+    background: #0058d0
+  }
+  .btn-default{
+    color: #6b6c6c;
+    border-color: transparent !important;
+    background: transparent !important;
+  }
+  .btn-default:hover { background: #4d4d4c !important; }
+  .btn-default:active { background: #585756 !important; color:#f0f0ef !important; }
+  .btn-default:active .icon { color:#f0f0ef !important; }
+  input {
+    color: white;
+    background-color:#303131;
+    border-top-color: #434444;
+    border-bottom-color: #646565;
+    border-left-color: #3b3d3d;
+    border-right-color: #3b3d3d;
+  }
+  tbody {background-color: transparent;}
+  .footer {
+    color:  #a3a3a3;
+    background:  linear-gradient(to bottom,#323232,#2a2a2a);
+  }
+  .toolbar-footer {
+    border-color: black;
+    box-shadow: inset 0 1px 0 transparent;
+    background: linear-gradient( to bottom, #323232, #2a2a2a 120% ) !important;
+    color: #a9a9a9 !important;
+  }
+}
